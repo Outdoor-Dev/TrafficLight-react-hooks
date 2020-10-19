@@ -1,13 +1,44 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.top{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    margin: auto; 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.rectangle{
+    width: 80px;
+    height: 200px;
+    background-color: black;
+    margin-left: 47.2%;
+    border-radius: 5px;
+    position:absolute;
+}
+.red-circle{
+    border-radius:100%;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 12px;
+    position: relative;
+}
+.yellow-circle{
+    border-radius:100%;
+    background-color:yellow;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 12px;
+    position: relative;
+}
+.green-circle{
+    border-radius:100%;
+    background-color:green;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 12px;
+    position: relative;
+}
