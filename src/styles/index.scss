@@ -1,44 +1,67 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-.top{
-    width:10px;
-    height: 50px;
-    background-color: black;
-    margin: auto; 
-}
-
 .rectangle{
-    width: 80px;
-    height: 200px;
+    width: 6.1%;
+    height: 32%;
     background-color: black;
-    margin-left: 47.2%;
+    margin-left: 86.2%;
+    top:34px;
     border-radius: 5px;
     position:absolute;
+
 }
 .red-circle{
+    border: 3px solid black;
     border-radius:100%;
-    background-color: red;
-    height: 50px;
-    width: 50px;
+    background-color: rgb(253, 11, 11);
+    height: 25%;
+    width: 62%;
     margin: auto;
     margin-top: 12px;
     position: relative;
 }
 .yellow-circle{
+    border: 3px solid black;
     border-radius:100%;
     background-color:yellow;
-    height: 50px;
-    width: 50px;
+    height: 25%;
+    width: 62%;
     margin: auto;
     margin-top: 12px;
     position: relative;
 }
 .green-circle{
+    border: 3px solid black;
     border-radius:100%;
-    background-color:green;
-    height: 50px;
-    width: 50px;
+    background-color:rgb(8, 201, 8);
+    height: 25%;
+    width: 62%;
     margin: auto;
     margin-top: 12px;
     position: relative;
+}
+.selected{
+    box-shadow: yellow 0px 0px 40px 20px;
+}
+body{
+    background-image: url(https://image.freepik.com/free-vector/school-activity_97632-498.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon-hand{
+    font-size: 42px;
+    margin-top: 1px;
+    margin-right:4px;
+    color:black;
+}
+.icon-walking{
+  font-size: 41px;
+  margin-top: 2px;
+  color:black;
+}
+.turtle{
+    height: 47px;
+    width:37px;
+    
+
 }
