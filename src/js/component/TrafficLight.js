@@ -34,7 +34,7 @@ export const TrafficLight = () => {
 					}>
 					<img
 						className="turtle"
-						src="https://img.icons8.com/ios/50/000000/turtle.png"
+						src="https://img.icons8.com/ios-filled/50/000000/turtle.png"
 					/>
 				</div>
 
