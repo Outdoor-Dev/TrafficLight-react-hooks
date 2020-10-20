@@ -12,7 +12,7 @@ export const TrafficLight = () => {
 				} else if (color == "red") {
 					setColor("green");
 				}
-			}, 2000);
+			}, 3000);
 		},
 		[color]
 	);
